@@ -22,9 +22,6 @@
         <jdk.version>1.7</jdk.version>
         <spring.version>4.3.0.RELEASE</spring.version>
         <hibernate.version>4.3.11.Final</hibernate.version>
-        <v.logback>1.2.3</v.logback>
-        <v.jcl.over.slf4j>1.7.5</v.jcl.over.slf4j>
-        <v.logback.ext.spring>0.1.4</v.logback.ext.spring>
     </properties>
 
     <dependencies>
@@ -64,26 +61,6 @@
         </dependency>
 
         <!-- ================================= LOG ======================================== -->
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>${v.logback}</version>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-core</artifactId>
-            <version>${v.logback}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>jcl-over-slf4j</artifactId>
-            <version>${v.jcl.over.slf4j}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.logback-extensions</groupId>
-            <artifactId>logback-ext-spring</artifactId>
-            <version>${v.logback.ext.spring}</version>
-        </dependency>
 
     </dependencies>
 
